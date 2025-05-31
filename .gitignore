@@ -1,0 +1,68 @@
+# === C++ build artifacts ===
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# === Build directories ===
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# === Ninja ===
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# === CLion ===
+.idea/
+*.iml
+
+# === Visual Studio ===
+.vscode/
+*.sdf
+*.opensdf
+*.suo
+*.vcxproj*
+*.vcproj*
+*.user
+*.ncb
+*.idb
+*.ipch
+*.pdb
+Debug/
+Release/
+x64/
+x86/
+
+# === Qt (if used) ===
+moc_*
+ui_*
+qrc_*
+
+# === OS generated ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === Logs / Misc ===
+*.log
+*.swp
+*.bak
+*.tmp
+*.old
